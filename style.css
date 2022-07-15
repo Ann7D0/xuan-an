@@ -1,0 +1,78 @@
+html {
+	font-size: calc(1.25em + 0.25vw)
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("starsbg.gif");
+	font-family: "Playfair Display", sans-serif;
+}
+
+
+div.container {
+	width: 80%;
+	height: auto;
+	margin: 5vh 10% 0;
+	text-align: center;
+	/*background-color: white;*/
+}
+
+h1 { /* Can chi */
+	box-sizing: border-box;
+	height: auto;
+	margin: 0;
+	padding: 1vh 0px 1vh;
+	color:  white;
+	font-family: "Playfair Display", cursive;
+	font-size: calc(1em + 2vw);
+	vertical-align: auto;
+}
+form {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 10px 0 30px 0;
+	/*background-color: white;*/
+}
+
+#datePicker {
+	width: calc(10em + 5vw);
+    height: 30px;
+	margin: 45px 0 45px;
+	background-color: white;
+	border: none;
+	border-bottom: 2px solid black;
+    border-radius: 5px;
+	outline: none;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 0.75rem;
+	text-align: center;
+}
+
+#namePicker {
+	width: calc(10em + 5vw);
+    height: 30px;
+	margin: 20px 0 40px;
+	background-color: white;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+    border-radius: 5px;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 0.75rem;
+	text-align: center;
+}
+
+#button {
+	width: 120px;
+	height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+	background-color: white;
+	color: black;
+	border: none;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 0.75rem;
+}
