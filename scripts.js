@@ -1,7 +1,7 @@
 
     document.getElementById("namePicker");
         addEventListener("keypress", function(event) {
-        if (event.key === "Enter") {
+        if (event.keyCode === 13) {
             event.preventDefault();
             document.getElementById("button").click()
         }
@@ -10,8 +10,8 @@
     function check () {
         var date = document.getElementById("datePicker").value;
         var logindate = Boolean (date == '1999-07-15');
-        var name = document.getElementById("namePicker");
-        var loginname = Boolean (name.value.toLowerCase() === 'trần thị xuân');
+        var name = document.getElementById("namePicker").value;
+        var loginname = Boolean (name.toLowerCase() === 'trần thị xuân');
         
     if (logindate == false || loginname == false) {
         window.location.replace("sorry.html");
