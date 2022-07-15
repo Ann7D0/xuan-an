@@ -3,7 +3,7 @@ function check () {
     var date = document.getElementById("datePicker").value;
     var logindate = Boolean (date == '1999-07-15');
     var name = document.getElementById("namePicker").value;
-    var loginname = Boolean (name === 'trần thị xuân');
+    var loginname = Boolean (name.toLowerCase() === 'trần thị xuân');
     
     if (logindate == false || loginname == false) {
         window.location.replace("sorry.html");
